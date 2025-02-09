@@ -1,0 +1,64 @@
+.main_experiance {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vw;
+}
+.main_experiance .experience,
+.projects {
+  width: 30%;
+  height: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_experiance h1 span {
+  font-size: 30px;
+  margin: 0vw 1vw;
+  text-align: center;
+}
+.main_experiance h1 {
+  font-size: 1.9vw;
+}
+.main_experiance .experience {
+  border-right: 2px solid #fff;
+}
+@media (max-width: 740px) {
+  .main_experiance {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_experiance .experience,
+  .projects {
+    width: 80%;
+    height: 20vh;
+    border-bottom: 2px solid #fff;
+    border-right: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects span {
+    display: block;
+    padding-bottom: 3vh;
+  }
+  .experience span {
+    font-size: 3vh;
+    font-size: 50px;
+    display: block;
+    padding-bottom: 4vh;
+  }
+  .experience h1 {
+    font-size: 3vh;
+  }
+  .projects h1 {
+    font-size: 3vh;
+  }
+}

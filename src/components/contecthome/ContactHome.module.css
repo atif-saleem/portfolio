@@ -1,0 +1,42 @@
+.main_contact {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_contact .left {
+  width: 60%;
+  padding-left: 1.3vw;
+}
+.main_contact .left h1 {
+  font-size: 3.7vw;
+  font-weight: 700;
+}
+.main_contact .right {
+  width: 40%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10vh;
+}
+.main_contact .left h1 a {
+  color: greenyellow;
+}
+
+.main_contact .right a {
+  color: aliceblue;
+  font-size: 4vw;
+}
+@media (max-width: 600px) {
+  .main_contact {
+    flex-direction: column;
+  }
+  .main_contact .left h1 {
+    font-size: 5vw;
+  }
+  .main_contact .right a {
+    color: aliceblue;
+    font-size: 6vw;
+  }
+}

@@ -1,0 +1,81 @@
+.herodiv {
+  display: flex;
+  /* border: 1px solid white; */
+
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 20vh;
+}
+
+.hero {
+  height: 70vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  /* padding-bottom: 300px; */
+
+  padding-left: auto;
+  /* border: 1px solid white; */
+}
+
+.hero h1 {
+  font-size: 5vw;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero .hero_btn button {
+  margin-top: 1.7vh;
+  padding: 2.5vh 3vw;
+  margin-left: 10px;
+  font-size: 1vw;
+  font-weight: 600;
+}
+.hero_btn .contact {
+  background-color: hsl(240, 91%, 48%);
+  border: none;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    color: hsl(240, 91%, 48%);
+    background-color: #fff;
+  }
+}
+.hero_btn .project {
+  background-color: transparent;
+
+  color: white;
+  cursor: pointer;
+  &:hover {
+    color: hsl(240, 91%, 48%);
+    background-color: #fff;
+  }
+}
+@media (max-width: 600px) {
+  .herodiv {
+    height: 50vh;
+    padding-top: -4vh;
+  }
+  .hero {
+    height: 30vh;
+
+    margin: 0 auto;
+  }
+  .herodiv {
+    display: flex;
+    /* border: 1px solid white; */
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    padding-top: 1vh;
+  }
+  .hero .hero_btn button {
+    font-size: 4vw;
+  }
+}
