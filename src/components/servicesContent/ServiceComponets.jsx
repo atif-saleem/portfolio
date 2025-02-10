@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./ServiceComponets.module.css";
+import { motion } from "motion/react";
 
 const serviceComponets = () => {
   return (
     <div>
       <div className={styles.main_services}>
-        <div className={styles.services_right}>
+        <motion.div className={styles.services_right}>
           <h1>Services</h1>
           <h6>01</h6>
           <h1>Frontend Developer</h1>
@@ -17,10 +18,10 @@ const serviceComponets = () => {
           <h4>1.Proficient in HTML, CSS, and JavaScript.</h4>
           <h4>2.Learning React for modern web apps.</h4>
           <h4>3. Focused on responsive web design.</h4>
-        </div>
-        <div className={styles.services_left}>
+        </motion.div>
+        <motion.div className={styles.services_left}>
           <img src="/images/serviceimg.jpg" alt="" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

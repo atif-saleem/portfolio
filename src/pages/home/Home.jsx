@@ -3,7 +3,7 @@ import Bottom from "../../components/bottom/Bottom";
 
 import Hero from "../../components/heroSection/Hero";
 // import Homefooter from "../../components/homefooter/Homefooter";
-import NavB from "../../components/test/navB";
+import NavB from "../../components/navbarcr/navB";
 
 const Home = () => {
   return (

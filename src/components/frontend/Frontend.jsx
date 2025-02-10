@@ -1,11 +1,19 @@
 import React from "react";
 import styles from "./Frontend.module.css";
+import { motion } from "motion/react";
 
 const Frontend = () => {
   return (
     <div>
       <div className={styles.main_services}>
-        <div className={styles.services_right}>
+        <motion.div
+          initial={{ scale: 0 }}
+          whileInView={{
+            scale: 0.7,
+          }}
+          transition={{ delay: 0.5, duration: 1 }}
+          className={styles.services_right}
+        >
           <h1>Services</h1>
           <h6>03</h6>
           <h1>Frontend Developer</h1>
@@ -18,7 +26,7 @@ const Frontend = () => {
           <h4>1.Proficient in HTML, CSS, JavaScript. Seeking Placements.</h4>
           <h4>2.Learning React.js for web development. Seeking Placements</h4>
           <h4>3.Passionate about UI/UX. Seeking front-end Placements</h4>
-        </div>
+        </motion.div>
         <div className={styles.services_left}>
           <img src="/images/service-02.jpg" alt="" />
         </div>

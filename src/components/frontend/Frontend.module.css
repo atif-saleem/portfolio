@@ -52,6 +52,7 @@
     width: 100%;
     height: 60vh;
     padding: 5vh 2vw;
+    animation: none;
   }
   .services_right h1 {
     font-size: 3.4vh;
@@ -71,6 +72,7 @@
   .services_right h4 {
     margin-top: 6vw;
     font-size: 1.8vh;
+    animation: none;
   }
   .services_left img {
     height: 30vw;

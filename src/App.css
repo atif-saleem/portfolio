@@ -14,6 +14,7 @@ html {
 }
 body {
   width: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 .main {
   background-color: blue;
@@ -63,6 +64,7 @@ body {
   .main {
     width: 100%;
     padding: 0;
+    animation: none;
   }
 
   .overlay {
